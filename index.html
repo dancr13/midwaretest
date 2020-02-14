@@ -1,0 +1,29 @@
+ <html>
+ <header>
+     <title>Test </title>
+     <link rel="stylesheet" href="./assets/main.css">
+     <script src="./assets/main.js"></script>
+ </header>
+
+ <body>
+     <form id="form-test-midware">
+        <div class="form-test-midware-container">
+             <h1>Test for Midware</h1> 
+            </div>
+            <hr>
+            <div class="form-test-midware-container">
+             <label for="quantity" class="form-label">Quantity:</label>
+                 <input type="text" class="form-control" id="quantity" name="quantity">
+                 <label for="goal" class="form-label">Goal:</label>
+                 <input type="text" class="form-control" id="goal" name="goal">
+                 <label for="goal" class="form-label">Result:</label>
+                 <div class="progress-bar">
+                    <div id="bar" class="bar"></div>
+                </div>
+                 <button onclick="calculatePercentaje()" class="btn">Calculate</button>
+                 <p id="error-alert" class="error-alert-title" ></p>
+            </div>
+    </form>
+ </body>
+
+ </html>
